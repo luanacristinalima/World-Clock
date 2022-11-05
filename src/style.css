@@ -1,0 +1,46 @@
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/051/466/original/oscar_niemeyer_oca_onioc_05_ipsis.jpeg?1667578217");
+  background-color: white;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.current h2 {
+  padding: 0;
+  margin: 50px 0 0;
+}
+.current h3 {
+  padding: 0;
+  margin: 0 0 50px;
+  position: relative;
+  left: 330px;
+}
+.container {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 50px;
+  padding: 20px;
+}
+.wrapper-header {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  padding: 10px;
+}
+.current-time {
+  font-weight: 800;
+  font-size: 175px;
+  line-height: 1;
+}
+.city {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+}
+.selected-city {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 366px;
+  position: relative;
+  left: 5px;
+}
