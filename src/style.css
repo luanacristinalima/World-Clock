@@ -63,5 +63,13 @@ a:hover {
   margin: 10px;
   padding: 10px;
   color: #473b34;
+}
+.city h2 {
+  margin-bottom: 0;
+  font-size: 30px;
+}
+.time {
+  font-size: 25px;
   text-align: right;
+  margin-top: 10px;
 }
