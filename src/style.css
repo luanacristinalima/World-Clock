@@ -1,9 +1,32 @@
 body {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/051/466/original/oscar_niemeyer_oca_onioc_05_ipsis.jpeg?1667578217");
+  background: #6068a0;
+  color: white;
+}
+img {
+  width: 100%;
+  height: 200px;
+}
+select {
+  height: 50px;
+  width: 300px;
+  border: none;
+  color: gray;
+  padding: 10px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
   background-color: white;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  position: relative;
+  right: 250px;
+}
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+a {
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
 }
 .current h2 {
   padding: 0;
@@ -12,35 +35,33 @@ body {
 .current h3 {
   padding: 0;
   margin: 0 0 50px;
-  position: relative;
-  left: 330px;
+  text-align: right;
 }
 .container {
   font-family: "Montserrat", sans-serif;
-  margin-top: 50px;
   padding: 20px;
 }
 .wrapper-header {
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 5px;
-  padding: 10px;
+  background-color: #fab7a7;
+  padding-top: 30px;
+  color: #473b34;
+}
+.wrapper-header h1 {
+  font-weight: 800;
+  margin-bottom: 20px;
+  font-size: 50px;
+  position: relative;
+  left: 380px;
 }
 .current-time {
   font-weight: 800;
-  font-size: 175px;
+  font-size: 280px;
   line-height: 1;
 }
 .city {
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 5px;
-  margin: 5px;
+  background-color: #fab7a7;
+  margin: 10px;
   padding: 10px;
-}
-.selected-city {
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 5px;
-  padding: 10px;
-  max-width: 366px;
-  position: relative;
-  left: 5px;
+  color: #473b34;
+  text-align: right;
 }
