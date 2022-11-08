@@ -27,11 +27,11 @@
         <h1>World Clock</h1>
       </div>
       <div class="col-3">
-        <select>
+        <select id="city">
           <option value="">Select a city</option>
-          <option value="">London</option>
-          <option value="">New York</option>
-          <option value="">Paris</option>
+          <option value="Europe/London">London</option>
+          <option value="America/New_York">New York</option>
+          <option value="Europe/Berlin">Berlin</option>
         </select>
       </div>
     </div>
@@ -45,7 +45,7 @@
         <div class="current-time">13:10:05</div>
         <h3>Friday, November 4, 2022</h3>
       </div>
-      <div class="row">
+      <div class="row" id="cities">
         <div class="city col" id="paris">
           <h2>Paris</h2>
           <div class="date"></div>
