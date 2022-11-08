@@ -8,15 +8,13 @@ img {
 }
 select {
   height: 50px;
-  width: 300px;
+  width: 350px;
   border: none;
   color: gray;
   padding: 10px;
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
   background-color: white;
-  position: relative;
-  right: 250px;
 }
 footer {
   text-align: center;
@@ -27,6 +25,9 @@ a {
 }
 a:hover {
   text-decoration: underline;
+}
+small {
+  font-size: 50px;
 }
 .current h2 {
   padding: 0;
@@ -50,13 +51,12 @@ a:hover {
   font-weight: 800;
   margin-bottom: 20px;
   font-size: 50px;
-  position: relative;
-  left: 380px;
 }
 .current-time {
   font-weight: 800;
-  font-size: 280px;
+  font-size: 220px;
   line-height: 1;
+  text-align: right;
 }
 .city {
   background-color: #fab7a7;

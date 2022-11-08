@@ -22,54 +22,61 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <div class="row wrapper-header">
-      <div class="col-9">
-        <h1>World Clock</h1>
-      </div>
-      <div class="col-3">
-        <select id="city">
-          <option value="">Select a city</option>
-          <option value="current">My location</option>
-          <option value="Europe/London">London</option>
-          <option value="America/New_York">New York</option>
-          <option value="Europe/Berlin">Berlin</option>
-        </select>
+    <div class="wrapper-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-8">
+            <h1>World Clock</h1>
+          </div>
+          <div class="col-4">
+            <select id="city">
+              <option value="">Select a city</option>
+              <option value="current">My location</option>
+              <option value="Europe/London">London</option>
+              <option value="America/New_York">New York</option>
+              <option value="Europe/Berlin">Berlin</option>
+              <option value="Europe/Lisbon">Lisbon</option>
+              <option value="Asia/Tokyo">Tokyo</option>
+              <option value="America/Santiago">Santiago</option>
+            </select>
+          </div>
+        </div>
       </div>
     </div>
     <div class="container">
       <div class="current">
         <h2>
           This is the current time
-          <div id="current-city">in Portugal</div>
+          <div>in Portugal</div>
         </h2>
         <div class="current-time">13:10:05</div>
         <h3>Friday, November 4, 2022</h3>
       </div>
-      <div class="row" id="cities">
+      <div class="row">
         <div class="city col" id="paris">
           <h2>Paris</h2>
           <div class="date"></div>
           <div class="time"></div>
         </div>
-        <div class="city col">
-          <h2>Paris</h2>
-          <div class="date">Friday, November 3</div>
-          <div class="time">06:19 pm</div>
+        <div class="city col" id="sydney">
+          <h2>Sydney</h2>
+          <div class="date"></div>
+          <div class="time"></div>
         </div>
-        <div class="city col">
-          <h2>Paris</h2>
-          <div class="date">Friday, November 3</div>
-          <div class="time">06:19 pm</div>
+        <div class="city col" id="madrid">
+          <h2>Madrid</h2>
+          <div class="date"></div>
+          <div class="time"></div>
         </div>
-        <div class="city col">
-          <h2>Paris</h2>
-          <div class="date">Friday, November 3</div>
-          <div class="time">06:19 pm</div>
+        <div class="city col" id="sao-paulo">
+          <h2>São Paulo</h2>
+          <div class="date"></div>
+          <div class="time"></div>
         </div>
-        <div class="city col">
-          <h2>Paris</h2>
-          <div class="date">Friday, November 3</div>
-          <div class="time">06:19 pm</div>
+        <div class="city col" id="los-angeles">
+          <h2>Los Angeles</h2>
+          <div class="date"></div>
+          <div class="time"></div>
         </div>
       </div>
       <footer>
